@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+.formtable{
+	width : 400px;
+	border : 2px solid gray;
+	margin : 30px;
+	padding : 10px;
+}
+
+.label {
+	text-align : right;
+}
+
+.error {
+	font-size:small;
+	color:red;
+	margin-letf:10px;
+}
+
+input[type=submit]{
+	margin : 0 auto;
+	display : block;
+	width: 30%;
+}
+
+input[type-submit] : hover {
+	background-color:  #45a400;
+}
